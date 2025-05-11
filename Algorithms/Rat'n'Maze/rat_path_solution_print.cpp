@@ -7,7 +7,7 @@ vector<vector<int>> ans;
 
 bool solve(int n,int x,int y,vector<vector<int>>& maze)
 {
-    if(x==n-1 && y==n-1 )//Reached Destination
+    if(x==n-1 && y==n-1 )// Reached Destination
     {
         ans[x][y]=1;
         return true;
